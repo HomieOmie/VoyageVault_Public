@@ -13,17 +13,7 @@ VoyageVault is an advanced travel tracking application designed to enhance and r
    - To allow for mulit-user use, we made the choice to use Google Firebase to handle logging in to an account, logging out, signing in/out
    - We've also integrated Apple MapKit to allow users to view pins they have placed on a map view as well as easily add pins through a simple tap or so
 
-## Testing Issues
-   - Our testing process involves rigorous UI testing to ensure each element functions as intended, as per the feature list.
-   - Backend tests are somewhat limited due to compatibility issues with Firebase.
-   - There was a significant effort put into backend testing, however, this was rather a roadblock as the backend testing relied heavily on pulling data from Google Firebase, which caused runtime issues due to there being a limit on the server bandwith.
-     - The full *working* test suite can be found on the adding_testing branch
-     - Other tests were created to test all ViewModels in terms of synchronous functionality such as sorting, however, this required a pull from Google Firebase that otherwise caused our Google Firebase account to exceed bandwitch limits.
-     - We have tried to alter asynchronous waiting times throughout the code, however, this issue was mainly from firebase
-       
-
-## V2 Features Guide
-### How to Interact with V2 Features:
+## Features
 
 1. **Onboarding**
    - Upon first opening the app, users will encounter onboarding screens. These currently contain placeholder images and text pending final UI touches.
@@ -59,10 +49,4 @@ VoyageVault is an advanced travel tracking application designed to enhance and r
    - When adding or editing a pin, users have the option to upload photos from their phone gallery.
 
 12. **Users can add previous trips to their pins**
-   - 
-
-## User Interface
-The UI of VoyageVault is currently limited. These aspects are to be finished before the presentation.
-
-## Warnings
-Please note that updates in Firebase may not immediately reflect in the app. Sometimes, restarting the app may be necessary to trigger these updates.
+   - Users can add past travels to their personal pins to have their memories logged in the app.
