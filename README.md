@@ -2,6 +2,8 @@
 
 VoyageVault is an advanced travel tracking application designed to enhance and record your travel experiences. This README provides a comprehensive guide on the design decisions, technical specifications, testing challenges, and interactions with Version 2 (V2) features of the app.
 
+*Note that this is a copy of the original repository as the original repository has private information not to be shared publicly.
+
 ## Design Decisions
    - To prevent user overload, we stilced to having three tabs; user profile (statistics), history, map. These view are pretty self-explanatory as in the history you can view all placed pins as well as add old pins. In the Map display you can add pins from travels prior to the app, and in the stastics page we have a gamification idea to see how you rank among other users as well as your own personal stats such as most recent travelling timeslot
 
